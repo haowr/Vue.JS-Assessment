@@ -635,7 +635,7 @@ export default {
   created() {
     //this.tasks =[];
     const fetchGif = async (tag) => {
-      fetch("http://jsonplaceholder.typicode.com/users")
+      fetch("https://jsonplaceholder.typicode.com/users")
         .then((response) => response.json())
         .then(
           (data) => {
