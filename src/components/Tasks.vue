@@ -56,7 +56,7 @@
             "
           >
             <img
-              v-bind:src="pictures[task.id]"
+              v-bind:src="pictures[task.id-1]"
               class=""
               style="height: 10rem"
               :alt="firstName"
